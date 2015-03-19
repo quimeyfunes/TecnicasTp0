@@ -2,14 +2,14 @@ package ar.fiuba.tecnicas.rockpaperscissors;
 
 public class Scissors {
 	public Scissors vs(Scissors scissors){
-		return new Scissors();
+		return this;
 	}
 	
 	public Scissors vs(Paper paper){
-		return new Scissors();
+		return this;
 	}
 	
 	public Rock vs(Rock rock){
-		return new Rock();
+		return rock;
 	}
 }
